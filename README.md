@@ -6,6 +6,7 @@ installation of openCV and pytesseract:
 
     pip install opencv-python pytesseract
 
+Change the directory andd path of the code.
 here is the code:
 
         import cv2
@@ -82,3 +83,5 @@ here is the code:
                     csvwriter.writerow(['Extracted Text'])
                     csvwriter.writerow([text])
                 print(f"Text extracted and saved as {csv_file_path}")
+
+the data uploaded is not a sensitive data so you can use it as sample.
